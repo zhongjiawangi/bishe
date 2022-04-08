@@ -1,0 +1,41 @@
+{
+  "name": "ego-mannage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@escook/express-joi": "^1.1.1",
+    "axios": "^0.26.1",
+    "babel-plugin-component": "^1.1.1",
+    "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.0",
+    "echarts": "^5.3.1",
+    "element-ui": "^2.15.6",
+    "express": "^4.17.3",
+    "express-jwt": "^6.1.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
